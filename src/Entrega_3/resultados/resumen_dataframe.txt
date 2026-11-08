@@ -1,0 +1,44 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 3755
+Columnas: 12
+Duplicados: 1171
+
+Columnas y tipos:
+- work_year: Int64
+- experience_level: object
+- employment_type: object
+- job_title: object
+- salary: Int64
+- salary_currency: object
+- salary_in_usd: Int64
+- employee_residence: object
+- remote_ratio: Int64
+- company_location: object
+- company_size: object
+- remote_work_mode: string
+
+Valores nulos por columna:
+- work_year: 0
+- experience_level: 0
+- employment_type: 0
+- job_title: 0
+- salary: 0
+- salary_currency: 0
+- salary_in_usd: 0
+- employee_residence: 0
+- remote_ratio: 0
+- company_location: 0
+- company_size: 0
+- remote_work_mode: 0
+
+Estadísticas numéricas:
+       work_year      salary  salary_in_usd  remote_ratio
+count     3755.0      3755.0         3755.0        3755.0
+mean    2022.374  190695.572      137570.39        46.272
+std        0.691  671676.501      63055.625        48.589
+min       2020.0      6000.0         5132.0           0.0
+25%       2022.0    100000.0        95000.0           0.0
+50%       2022.0    138000.0       135000.0           0.0
+75%       2023.0    180000.0       175000.0         100.0
+max       2023.0  30400000.0       450000.0         100.0
